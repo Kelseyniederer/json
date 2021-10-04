@@ -1,12 +1,11 @@
-{
+{ "meta": { "theme": "kendall" }, 
   "basics": {
     "name": "Kelsey Niederer",
     "label": "Software Developer",
-    "image": "",
     "email": "kelseyniederer12@gmail.com",
     "phone": "(636) 293-3747",
     "url": "https://kelseyniederer.com",
-    "summary": "Yoga Teacher turned Software Developer seeking a Full Stack Developer position building tools and platforms that contribute to the greater good of the world, and all beings that reside here. Skilled in JavaScript, Java, HTML5, CSS, Spring MVC, Bootstrap, and WordPress.",
+    "summary": "Yoga Teacher turned Software Developer seeking a technical position building tools and platforms that contribute to the greater good of the world, and all beings that reside here.",
     "location": {
       "city": "St. Louis",
       "countryCode": "US",
@@ -57,7 +56,26 @@
     "startDate": "2019-01-19",
     "endDate": "2020-06-12",
     "summary": "Pre-Algebra, Algebra I, Algebra II, Geometry, Trigonometry, Calculus, College Algebra, ACT/SAT Prep, Vocation/Logic Assesment Prep"
-      }
+      },
+           {
+    "name": "Project - Home Loan Calculator and Comparison Tool",
+    "url": "https://github.com/Kelseyniederer/home-loan-comparison-tool",
+    "endDate": "2021-08-08",
+    "summary": "A mortgage calculator that allows buyers to compare their home loan options. Created with Java using IntelliJ, Spring MVC Framework, ThymeLeaf views, and styled with BootStrap CSS.   https://github.com/Kelseyniederer/home-loan-comparison-tool"
+     },
+          {
+    "name": "Project - Our Family's Doing Yoga Website",
+     "url": "https://ourfamilysdoingyoga.com",
+    "endDate": "2020-11-12",
+    "summary": "Designed and created website for St. Louis author SonJoria Sydnor and her book titled 'Our Family's Doing Yoga'. I made this site using WordPress, HTML, CSS, and Elementor GUI Editor"
+}, 
+  {
+    "name": "Project - Yoga Buzz Website",
+    "url": "https://yogabuzz.org",
+    "endDate": "2020-06-12",
+    "summary": "Designed and created website for Yoga Buzz, a 501c3 Non-Profit in St. Louis, MO whose mission is to make yoga more accessible to people of different backgrounds, body types, and income levels. I created this website using WordPress, HTML, CSS, and Elementor GUI Editor"
+     }
+
   ],
   "volunteer": [{
     "organization": "Yoga Buzz",
@@ -83,8 +101,8 @@
     "institution": "University of Missouri - St. Louis",
     "url": "https://www.umsl.edu/",
     "area": "Mathematics Education",
-    "startDate": "2012-08-12",
-    "endDate": "2015-05-15"
+    "startDate": "2012-08-15",
+    "endDate": "2015-05-12"
   }],
    "skills": [{
     "name": "Front-End",
@@ -104,7 +122,7 @@
     "keywords": [
       "Java",
       "IntelliJ",
-      "Spring MVC",
+      "Spring Boot",
       "ThymeLeaf",
       "BootStrap",
       "MySQL"
@@ -119,13 +137,7 @@
       "Git Bash",
       "Strong desire to learn and grow"
     ]
-  }],
- 
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
+  }], "interests": [{
     "name": "Astrology",
     "keywords": [
       "Scorpio Sun",
@@ -139,7 +151,7 @@
       "JavaScript",
       "STEM",
       "Yoga",
-      "Fred Rogers"
+      "Mister Rogers"
     ]
   },   {
     "name": "Hobbies",
@@ -150,18 +162,9 @@
       "Billiards"
     ]
   }],
-  "projects": [{
-    "name": "yogabuzz.org",
- "description": "Designed and created website for Yoga Buzz, a 501c3 Non-Profit in St. Louis, MO whose mission is to make yoga more accessible to people of different backgrounds, body types, and income levels. I created this website using WordPress, HTML, CSS, and Elementor GUI Editor",  
-    "url": "https://yogabuzz.org"
-  }, {
-    "name": "ourfamilysdoingyoga.com",
- "description": "Designed and created website for St. Louis author SonJoria Sydnor and her book titled 'Our Family's Doing Yoga'. I made this site using WordPress, HTML, CSS, and Elementor GUI Editor",
-    "url": "https:/https://ourfamilysdoingyoga.com/"
-  },{
-    "name": "Home Loan Calculator and Comparison Tool",
-    "description": "A mortgage calculator that allows buyers to compare their home loan options. Created with Java using IntelliJ, Spring MVC Framework, ThymeLeaf views, and styled with BootStrap CSS.",
-    "url": "https://github.com/Kelseyniederer/home-loan-comparison-tool"
-  }
-              ]
+ 
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }]
 }

@@ -1,170 +1,164 @@
-{  
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Kelsey Niederer",
-    "label": "Software Developer",
+    "label": "Programmer",
+    "image": "",
     "email": "kelseyniederer12@gmail.com",
-    "phone": "(636) 293-3747",
-    "url": "https://kelseyniederer.com",
-    "summary": "Yoga Teacher turned Software Developer seeking a technical position building tools and platforms that contribute to the greater good of the world, and all beings that reside here.",
+    "phone": "(912) 555-4321",
+    "url": "http://richardhendricks.example.com",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "location": {
-      "city": "Saint Louis",
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
       "countryCode": "US",
-      "region": "Missouri"
+      "region": "California"
     },
-    "profiles": [{
-      "network": "LinkedIn",
-      "username": "kelsey-niederer",
-      "url": "https://www.linkedin.com/in/kelsey-niederer/"
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "neutralthoughts",
+        "url": ""
+      },
+      {
+        "network": "SoundCloud",
+        "username": "dandymusicnl",
+        "url": "https://soundcloud.example.com/dandymusicnl"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Pied Piper",
+      "location": "Palo Alto, CA",
+      "description": "Awesome compression company",
+      "position": "CEO/President",
+      "url": "http://piedpiper.example.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "url": "https://www.ou.edu/",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
     },
     {
-      "network": "GitHub",
-      "username": "kelseyniederer",
-      "url": "https://github.com/Kelseyniederer"
-    }]
-  },
-  "work": [{
-    "name": "LaunchCode",
-    "position": "Tech Leadership Fellow",
-    "url": "https://www.launchcode.org/",
-    "startDate": "2021-05-18",
-    "summary": "Guiding a group of students as their principal education and support point of contact throughout LaunchCode’s LC101 Coding Bootcamp. Areas of focus: JavaScript, HTML, CSS, Angular, Java, Spring MVC, and Bootstrap"
-    },
-          {
-    "name": "Bricks 4 Kidz",
-    "position": "STEM Teacher",
-    "url": "https://www.bricks4kidz.com/home/",
-    "startDate": "2021-07-11",
-    "summary": "Lead workshops teaching concepts of Science, Technology, Engineering, & Mathematics to children ages 6-12 using Legos and other education technologies"
-  },
-  {
-    "name": "Yoga Buzz",
-    "position": "IT Coordinator",
-    "url": "https://www.yogabuzz.org/",
-    "startDate": "2020-05-05",
-    "summary": "Design websites for Yoga Buzz, a 501c-3 nonprofit whose mission is to make yoga more physically and financially accessible. I made this website using WordPress, HTML, CSS, and Elementor GUI Editor"
-  },
-{
-    "name": "Brick City Yoga",
-    "position": "Yoga Teacher",
-    "url": "https://brickcityyogastl.com/",
-    "startDate": "2019-01-19",
-    "endDate": "2020-06-07",
-    "summary": "Leading groups of people through yoga asanas, or poses, and meditation. Highlights: Deep Stretch Yoga, Surviving Mercury Retrograde Workshop, and Vinyl & Vinyasa series, where I lead Vinyasa flow classes to classic rock albums on vinyl." 
-     },
-   {
-    "name": "Math Tutor",
-    "startDate": "2019-01-19",
-    "endDate": "2020-06-12",
-    "summary": "Pre-Algebra, Algebra I, Algebra II, Geometry, Trigonometry, Calculus, College Algebra, ACT/SAT Prep, Vocation/Logic Assesment Prep"
-      },
-           {
-    "name": "Project - Home Loan Calculator and Comparison Tool",
-    "url": "https://github.com/Kelseyniederer/home-loan-comparison-tool",
-    "endDate": "2021-08-08",
-    "summary": "A mortgage calculator that allows buyers to compare their home loan options. Created with Java using IntelliJ, Spring MVC Framework, ThymeLeaf views, and styled with BootStrap CSS.   https://github.com/Kelseyniederer/home-loan-comparison-tool"
-     },
-          {
-    "name": "Project - Our Family's Doing Yoga Website",
-     "url": "https://ourfamilysdoingyoga.com",
-    "endDate": "2020-11-12",
-    "summary": "Designed and created website for St. Louis author SonJoria Sydnor and her book titled 'Our Family's Doing Yoga'. I made this site using WordPress, HTML, CSS, and Elementor GUI Editor"
-}, 
-  {
-    "name": "Project - Yoga Buzz Website",
-    "url": "https://yogabuzz.org",
-    "endDate": "2020-06-12",
-    "summary": "Designed and created website for Yoga Buzz, a 501c3 Non-Profit in St. Louis, MO whose mission is to make yoga more accessible to people of different backgrounds, body types, and income levels. I created this website using WordPress, HTML, CSS, and Elementor GUI Editor"
-     }
-
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
   ],
-  "volunteer": [{
-    "organization": "Yoga Buzz",
-    "position": "Volunteer",
-    "url": "https://yogabuzz.org/",
-    "startDate": "2018-03-01",
-    "summary": "Assisting with setup, execution, and breakdown of Yoga Buzz events around St. Louis. Setting up/breaking down A/V equipment. Demonstrating Yoga classes using a chair so people with differently-abled bodies can practice safely"
-  }],
-  "education": [{
-    "institution": "LaunchCode",
-    "url": "https://www.launchcode.org/",
-    "area": "Software Development",
-    "startDate": "2020-01-04",
-    "endDate": "2020-10-15"
-  },   
-  {
-    "institution": "Yoga Buzz",
-    "url": "https://www.yogabuzz.org/",
-    "area": "200 Hour Yoga Teacher Training",
-    "startDate": "2018-03-03",
-    "endDate": "2018-07-01"
-  }, {
-    "institution": "University of Missouri - St. Louis",
-    "url": "https://www.umsl.edu/",
-    "area": "Mathematics Education",
-    "startDate": "2012-08-15",
-    "endDate": "2015-05-12"
-  }],
-   "skills": [{
-    "name": "Front-End",
-    "keywords": [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "VS Code",
-      "JSON",
-      "TypeScript",
-      "Angular",
-      "WordPress"
-    ]
-  },
-   {
-    "name": "Back-End",
-    "keywords": [
-      "Java",
-      "IntelliJ",
-      "Spring Boot",
-      "ThymeLeaf",
-      "BootStrap",
-      "MySQL"
-    ]
-  } ,
-  {
-    "name": "Other Skills",
-    "keywords": [
-      "git",
-      "Agile",
-      "TDD",
-      "Git Bash",
-      "Strong desire to learn and grow"
-    ]
-  }], "interests": [{
-    "name": "Astrology",
-    "keywords": [
-      "Scorpio Sun",
-      "Virgo Moon",
-      "Cancer Ascendant"
-    ]
-  },
-  {
-    "name": "Education",
-    "keywords": [
-      "JavaScript",
-      "STEM",
-      "Yoga",
-      "Mister Rogers"
-    ]
-  },   {
-    "name": "Hobbies",
-    "keywords": [
-      "Floristry",
-      "Mixology",
-      "Tarot",
-      "Billiards"
-    ]
-  }],
- 
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }]
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
 }
